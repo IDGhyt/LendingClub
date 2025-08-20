@@ -48,7 +48,7 @@ pip install -r requirements.txt
 1. 数据预处理：`python src/data_processing.py`
 2. 特征工程：`python src/quick_eda.py`
 3. 模型训练：`python src/model_building.py`
-4. 自动化策略决策系统：'python src/strategy_output.py'
+4. 自动化策略决策系统：`python src/strategy_output.py`
 
 ## 📊 文件说明
 
