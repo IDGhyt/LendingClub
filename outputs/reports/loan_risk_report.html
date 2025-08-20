@@ -1,0 +1,41 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>LendingClub风控分析报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; color: #333; }
+            .header { text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; margin-bottom: 30px; }
+            .section { margin-bottom: 30px; padding: 25px; background: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+            .metrics { display: flex; justify-content: space-around; margin: 20px 0; flex-wrap: wrap; }
+            .metric { text-align: center; padding: 20px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; border-radius: 10px; margin: 10px; min-width: 200px; }
+            .img-container { text-align: center; margin: 30px 0; }
+            img { max-width: 95%; height: auto; border: 1px solid #ddd; border-radius: 8px; }
+            .warning { color: #856404; background-color: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 8px; margin: 20px 0; }
+            .success { color: #155724; background-color: #d4edda; border: 1px solid #c3e6cb; padding: 15px; border-radius: 8px; margin: 20px 0; }
+            h2 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        </style>
+    </head>
+    <body>
+        <div class="header"><h1>📊 LendingClub风控分析报告</h1><p>基于机器学习的贷款风险评估与策略优化</p></div>
+        <div class="section"><h2>📈 数据概览</h2><div class="metrics">
+            <div class="metric"><h3>总样本数</h3><p style="font-size: 28px; margin: 10px 0;">1,000,000</p></div>
+            <div class="metric"><h3>实际违约率</h3><p style="font-size: 28px; margin: 10px 0;">12.12%</p></div>
+            <div class="metric"><h3>平均预测概率</h3><p style="font-size: 28px; margin: 10px 0;">0.500</p></div>
+        </div></div>
+        <div class="section"><h2>🔍 概率分布分析</h2><div class="img-container">
+            <img src="../visualizations/probability_distribution.png" alt="概率分布分析"></div>
+            <div class="success"><strong>✅ 良好:</strong> 模型预测概率分布正常</div>
+        </div>
+        <div class="section"><h2>🎯 最优风控策略</h2><div class="img-container">
+            <img src="../visualizations/threshold_analysis.png" alt="阈值分析"></div>
+            <div class="metrics">
+                <div class="metric" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"><h3>推荐阈值</h3><p style="font-size: 32px; margin: 10px 0;">0.90</p></div>
+                <div class="metric" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"><h3>预期通过率</h3><p style="font-size: 32px; margin: 10px 0;">100.0%</p></div>
+                <div class="metric" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"><h3>预期违约率</h3><p style="font-size: 32px; margin: 10px 0;">12.1%</p></div>
+            </div>
+        </div>
+    </body>
+    </html>
+    

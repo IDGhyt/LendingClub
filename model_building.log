@@ -1,0 +1,129 @@
+INFO:__main__:使用的PyCaret版本: 3.3.2
+INFO:__main__:开始数据加载和预处理
+INFO:__main__:执行数据采样，原始数据量: 999137
+INFO:__main__:采样后数据量: 100000
+INFO:__main__:最终数据集形状: (100000, 13)
+INFO:__main__:目标变量分布:
+is_default
+0    0.87874
+1    0.12126
+Name: proportion, dtype: float64
+INFO:__main__:开始设置PyCaret环境
+ERROR:__main__:PyCaret设置失败: Invalid value for the index parameter. There are duplicate indices in the dataset. Use index=False to reset the index to RangeIndex.
+ERROR:__main__:主流程执行失败: Invalid value for the index parameter. There are duplicate indices in the dataset. Use index=False to reset the index to RangeIndex.
+INFO:__main__:使用的PyCaret版本: 3.3.2
+INFO:__main__:开始数据加载和预处理
+INFO:__main__:执行数据采样，原始数据量: 999137
+INFO:__main__:采样后数据量: 100000
+INFO:__main__:最终数据集形状: (100000, 13)
+INFO:__main__:目标变量分布:
+is_default
+0    0.87874
+1    0.12126
+Name: proportion, dtype: float64
+INFO:__main__:开始设置PyCaret环境
+ERROR:__main__:PyCaret设置失败: Invalid value for the index parameter. There are duplicate indices in the dataset. Use index=False to reset the index to RangeIndex.
+ERROR:__main__:主流程执行失败: Invalid value for the index parameter. There are duplicate indices in the dataset. Use index=False to reset the index to RangeIndex.
+INFO:__main__:使用的PyCaret版本: 3.3.2
+INFO:__main__:开始数据加载和预处理
+INFO:__main__:执行数据采样，原始数据量: 999137
+INFO:__main__:采样后数据量: 100000
+INFO:__main__:最终数据集形状: (100000, 13)
+INFO:__main__:目标变量分布:
+is_default
+0    0.87874
+1    0.12126
+Name: proportion, dtype: float64
+INFO:__main__:开始设置PyCaret环境
+INFO:__main__:PyCaret环境设置成功
+INFO:__main__:开始模型比较，候选模型: ['rf', 'lightgbm']
+INFO:__main__:最佳模型选择完成: RandomForestClassifier
+INFO:__main__:模型保存成功: outputs/models/lc_quick_model.pkl
+INFO:__main__:使用的PyCaret版本: 3.3.2
+INFO:__main__:开始数据加载和预处理
+INFO:__main__:执行数据采样，原始数据量: 999137
+INFO:__main__:采样后数据量: 100000
+INFO:__main__:最终数据集形状: (100000, 15)
+INFO:__main__:目标变量分布:
+is_default
+0    0.87874
+1    0.12126
+Name: proportion, dtype: float64
+INFO:__main__:开始设置PyCaret环境
+ERROR:__main__:PyCaret设置失败: Input X contains infinity or a value too large for dtype('float64').
+ERROR:__main__:主流程执行失败: Input X contains infinity or a value too large for dtype('float64').
+INFO:__main__:使用的PyCaret版本: 3.3.2
+INFO:__main__:开始数据加载和预处理
+INFO:__main__:执行数据采样，原始数据量: 999137
+INFO:__main__:采样后数据量: 100000
+INFO:__main__:最终数据集形状: (100000, 15)
+INFO:__main__:目标变量分布:
+is_default
+0    0.87874
+1    0.12126
+Name: proportion, dtype: float64
+INFO:__main__:开始设置PyCaret环境
+ERROR:__main__:PyCaret设置失败: Input X contains infinity or a value too large for dtype('float64').
+ERROR:__main__:主流程执行失败: Input X contains infinity or a value too large for dtype('float64').
+INFO:__main__:使用的PyCaret版本: 3.3.2
+INFO:__main__:开始数据加载和预处理
+INFO:__main__:执行数据采样，原始数据量: 999132
+INFO:__main__:采样后数据量: 100000
+INFO:__main__:最终数据集形状: (100000, 15)
+INFO:__main__:目标变量分布:
+is_default
+0    0.87874
+1    0.12126
+Name: proportion, dtype: float64
+INFO:__main__:开始设置PyCaret环境
+INFO:__main__:PyCaret环境设置成功
+INFO:__main__:开始模型比较，候选模型: ['rf', 'lightgbm']
+INFO:__main__:最佳模型选择完成: LGBMClassifier
+INFO:__main__:模型保存成功: outputs/models/lc_quick_model.pkl
+ERROR:__main__:主流程执行失败: cannot import name 'check_metric' from 'pycaret.utils' (D:\LC_Data_Strategy\.venv\lib\site-packages\pycaret\utils\__init__.py)
+INFO:__main__:PyCaret版本: 3.3.2
+INFO:__main__:开始数据加载和预处理
+INFO:__main__:原始数据量过大(999132)，进行采样...
+INFO:__main__:采样后数据量: 100000
+INFO:__main__:最终数据集形状: (100000, 15)
+INFO:__main__:违约比例:
+is_default
+0    0.87874
+1    0.12126
+Name: proportion, dtype: float64
+INFO:__main__:配置PyCaret环境
+INFO:__main__:PyCaret环境配置成功
+INFO:__main__:开始模型比较，候选模型: ['rf', 'lightgbm']
+INFO:__main__:最佳模型: LGBMClassifier
+INFO:__main__:主模型保存成功
+ERROR:__main__:流程执行失败: Found input variables with inconsistent numbers of samples: [100000, 109994]
+2025-08-19 17:30:10,445 - __main__ - INFO - PyCaret版本: 3.3.2
+2025-08-19 17:30:10,445 - __main__ - INFO - 开始数据加载和预处理
+2025-08-19 17:30:13,668 - __main__ - WARNING - 发现空值:
+annual_inc        832
+dti               851
+income_to_loan    832
+loan_to_income    832
+dtype: int64
+2025-08-19 17:30:19,891 - __main__ - INFO - 原始数据量(999132)，进行分层抽样...
+2025-08-19 17:30:19,983 - __main__ - INFO - 最终数据集形状: (100000, 15)
+2025-08-19 17:30:19,985 - __main__ - INFO - 违约比例:
+is_default
+0    0.87874
+1    0.12126
+Name: proportion, dtype: float64
+2025-08-19 17:30:19,989 - __main__ - INFO - 配置PyCaret环境
+2025-08-19 17:30:20,040 - __main__ - WARNING - 发现4816条重复数据，已自动处理
+2025-08-19 17:30:20,062 - __main__ - ERROR - PyCaret设置失败: setup() got an unexpected keyword argument 'silent'
+Traceback (most recent call last):
+  File "D:\LC_Data_Strategy\model_building.py", line 128, in setup_pycaret_environment
+    exp = setup(
+TypeError: setup() got an unexpected keyword argument 'silent'
+2025-08-19 17:30:20,062 - __main__ - CRITICAL - 流程失败: setup() got an unexpected keyword argument 'silent'
+Traceback (most recent call last):
+  File "D:\LC_Data_Strategy\model_building.py", line 244, in main
+    exp = setup_pycaret_environment(data, target)
+  File "D:\LC_Data_Strategy\model_building.py", line 128, in setup_pycaret_environment
+    exp = setup(
+TypeError: setup() got an unexpected keyword argument 'silent'
+ERROR:__main__:建模失败: Estimator xgboost Not Available. Please see docstring for list of available estimators.
